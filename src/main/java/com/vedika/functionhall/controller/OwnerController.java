@@ -16,7 +16,7 @@ import com.vedika.functionhall.service.OwnerService;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/owner")
 public class OwnerController {
 	
 
@@ -62,8 +62,5 @@ public class OwnerController {
 		response.setFunctionHalls(functionhallsUI);
 		return response;
 	}
-
-
-	
 
 }
