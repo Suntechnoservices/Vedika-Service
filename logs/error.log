@@ -1,0 +1,54 @@
+2020-05-19 14:58:25 [main] INFO  c.v.f.FunctionhallServiceApplication -
+				Starting FunctionhallServiceApplication on DESKTOP-PD9AS6Q with PID 8160 (C:\Users\ranji\Downloads\functionhall-service\bin\main started by ranji in C:\Users\ranji\Downloads\functionhall-service)
+2020-05-19 14:58:25 [main] DEBUG c.v.f.FunctionhallServiceApplication -
+				Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-19 14:58:25 [main] INFO  c.v.f.FunctionhallServiceApplication -
+				No active profile set, falling back to default profiles: default
+2020-05-19 14:58:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2020-05-19 14:58:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 44ms. Found 0 Reactive MongoDB repository interfaces.
+2020-05-19 14:58:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-19 14:58:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 21ms. Found 1 MongoDB repository interfaces.
+2020-05-19 14:58:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8057 (http)
+2020-05-19 14:58:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8057"]
+2020-05-19 14:58:27 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-05-19 14:58:27 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-19 14:58:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-05-19 14:58:27 [main] INFO  o.s.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1228 ms
+2020-05-19 14:58:27 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[35.154.158.251:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-19 14:58:27 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server 35.154.158.251:27017 to client view of cluster
+2020-05-19 14:58:28 [cluster-ClusterId{value='5ec3a6bba71f1c147dd7aef2', description='null'}-35.154.158.251:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1048}] to 35.154.158.251:27017
+2020-05-19 14:58:28 [cluster-ClusterId{value='5ec3a6bba71f1c147dd7aef2', description='null'}-35.154.158.251:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=35.154.158.251:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 6]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=52776100}
+2020-05-19 14:58:28 [cluster-ClusterId{value='5ec3a6bba71f1c147dd7aef2', description='null'}-35.154.158.251:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-05-19 14:58:28 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 14:58:28 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[35.154.158.251:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-19 14:58:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8057"]
+2020-05-19 14:58:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8057 (http) with context path ''
+2020-05-19 14:58:28 [main] INFO  c.v.f.FunctionhallServiceApplication -
+				Started FunctionhallServiceApplication in 2.993 seconds (JVM running for 4.097)
+2020-05-19 14:58:28 [cluster-ClusterId{value='5ec3a6bca71f1c147dd7aef3', description='null'}-35.154.158.251:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:1049}] to 35.154.158.251:27017
+2020-05-19 14:58:28 [cluster-ClusterId{value='5ec3a6bca71f1c147dd7aef3', description='null'}-35.154.158.251:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=35.154.158.251:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 6]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=54466700}
+2020-05-19 15:05:36 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2020-05-19 15:05:37 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
