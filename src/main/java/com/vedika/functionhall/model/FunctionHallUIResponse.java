@@ -12,8 +12,7 @@ public class FunctionHallUIResponse {
 	private String state;
 	private String city;
 	private int zipcode;
-	
-	
+	private String imageurl;
 	public String getFunctionHallName() {
 		return functionHallName;
 	}
@@ -62,14 +61,21 @@ public class FunctionHallUIResponse {
 	public void setZipcode(int zipcode) {
 		this.zipcode = zipcode;
 	}
+	
+	public String getImageurl() {
+		return imageurl;
+	}
+	public void setImageurl(String imageurl) {
+		this.imageurl = imageurl;
+	}
 	@Override
 	public String toString() {
 		return "FunctionHallUIResponse [functionHallName=" + functionHallName + ", ownerFirstName=" + ownerFirstName
 				+ ", ownerLastName=" + ownerLastName + ", ownerId=" + ownerId + ", street=" + street + ", state="
-				+ state + ", city=" + city + ", zipcode=" + zipcode + "]";
+				+ state + ", city=" + city + ", zipcode=" + zipcode + ", imageurlurl=" + imageurl + "]";
 	}
-
-
+	
+	
 }
 
 
